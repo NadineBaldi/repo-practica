@@ -5,6 +5,15 @@ import java.util.List;
 
 public class Alumno {
 	
+	public List<Inscripcion> getMateriasCursadas() {
+		return materiasCursadas;
+	}
+
+
+	public void setMateriasCursadas(List<Inscripcion> materiasCursadas) {
+		this.materiasCursadas = materiasCursadas;
+	}
+
 	private static Integer ID_GENERATOR=0;
 	
 	private Integer id;
